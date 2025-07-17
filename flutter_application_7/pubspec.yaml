@@ -1,0 +1,27 @@
+name: flutter_application_7
+description: "A new Flutter project."
+publish_to: 'none' # Prevents accidental publication to pub.dev
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0" # Ensures compatibility with most recent Dart versions
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bottom_picker: ^2.10.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  image_picker: ^1.1.2
+  intl: ^0.20.1
+  lottie: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/ # Ensure this directory exists and contains valid files
